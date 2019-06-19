@@ -1,0 +1,185 @@
+body{
+    background-image: url("../papyrus-dark.png");
+}
+
+header{
+    background-color: white;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    clear: both;
+    height: 75px;
+}
+
+section{
+    padding: 25px;
+}
+
+.name{
+    float: left;
+    text-align: center;
+    width: 250px;
+    padding-top: 15px;
+    height: 60px;
+    background-color: #4aaaa5;
+}
+
+.name a{
+    text-decoration: none;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+
+nav{
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+/* Targets container of section */
+.about{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    max-width: 960px;
+    clear: both;
+    background: white;
+    border: 2px solid #dddddd;
+}
+
+.port{
+    background: white;
+    margin: auto;
+    max-width: 960px;
+    max-height: 900px;
+    min-height: 900px;
+    margin-bottom: 50px;
+    padding: 25px;
+}
+
+.contact{
+    background: white;
+    margin: auto;
+    max-width: 960px;
+    min-height: 400px;
+    margin-bottom: 50px;
+    padding: 25px;
+}
+
+
+.profile img{
+    float: left;
+    padding: 10px 25px 25px 0px;
+}
+
+
+nav a{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    text-decoration: none;
+    padding: 0px 15px 0px 15px;
+}
+
+nav a:nth-child(1){
+    border-right: 1px solid #cccccc;
+}
+
+nav a:nth-child(3){
+    border-left: 1px solid #cccccc;
+}
+
+
+.pimg{
+    float: left;
+    padding-right: 25px;
+    margin-bottom: -25px;
+}
+
+.pcontainer{
+    margin-top: 25px;
+}
+
+.labels{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+form{
+    margin-top: 25px;
+}
+
+input[type=text]{
+    width: 900px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    color: #666666;
+    padding: 5px;
+}
+
+input[name="message"]{
+    padding-bottom: 200px;
+}
+
+input[type="submit"]{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    background-color: #4aaaa5;
+    border-style: none;
+}
+
+h1{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 36px;
+    padding: 10px;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 24px;
+    padding-top: 25px;
+    position: relative;
+    top: -90px;
+    text-align: center;
+    color: white;
+    background-color: #4aaaa5;
+    height: 50px;
+}
+
+h3{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #777777;
+}
+
+p{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+    padding-bottom: 25px;
+    color: #777777;
+}
+
+
+footer{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    background: #666666;
+    padding: 25px;
+    height: 10px;
+    clear: both;
+    border-top: 5px solid #4aaaa5;
+    color: white;
+}
