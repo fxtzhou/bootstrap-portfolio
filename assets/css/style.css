@@ -7,11 +7,9 @@ header{
 }
 
 .container{
-    margin: 0 auto;
     width: 100%;
-    max-width: 960px;
     clear: both;
-    height: 75px;
+    background: white;
 }
 
 section{
@@ -23,7 +21,7 @@ section{
     text-align: center;
     width: 250px;
     padding-top: 15px;
-    height: 60px;
+    height: 75px;
     background-color: #4aaaa5;
 }
 
@@ -35,7 +33,7 @@ section{
     font-weight: bold;
 }
 
-nav{
+.nav{
     float: right;
     margin-top: 25px;
     margin-right: 10px;
@@ -78,18 +76,18 @@ nav{
 }
 
 
-nav a{
+.nav-item a{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     text-decoration: none;
     padding: 0px 15px 0px 15px;
 }
 
-nav a:nth-child(1){
+.nav-item a:nth-child(1){
     border-right: 1px solid #cccccc;
 }
 
-nav a:nth-child(3){
+.nav-item a:nth-child(3){
     border-left: 1px solid #cccccc;
 }
 
@@ -175,6 +173,7 @@ footer{
     font-size: 12px;
     text-align: center;
     bottom: 0;
+    position: fixed;
     width: 100%;
     background: #666666;
     padding: 25px;
