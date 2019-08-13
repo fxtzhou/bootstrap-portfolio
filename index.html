@@ -7,90 +7,399 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 
     <title>Fiona's Portfolio</title>
 </head>
 
 <body>
-    <div class="container-fluid bg-white mt-n1">
-        <div class="row">
-            <div class="col-xs-0 col-md-1 col-lg-1 col-xl-2"></div>
-            <div class="name-bg col-xs-12 col-md-1 col-lg-2 text-center">
-                <a class="navbar-brand ml-lg-n3" href="index.html">
-                    <h1 class="h1 p-3">Fiona Zhou</h1>
-                </a>
-            </div>
-            <div class="col-md-5 col-lg-5 col-xl-4"></div>
-            <div class="col-xs-12 col-md-4 col-lg-4">
-                <ul class="nav mt-md-4 mt-lg-4 justify-content-center">
-                    <li class="navbar-text">
-                        <a class="nav-item border-right pr-2 pl-2" href="index.html">About</a>
-                    </li>
+    <div class="container-fluid bg-dark sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Fiona Zhou</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
-                    <li class="navbar-text">
-                        <a class="nav-item border-right pr-2 pl-2" href="portfolio.html">Portfolio</a>
-                    </li>
+            </button>
+            <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> -->
 
-                    <li class="navbar-text">
-                        <a class="nav-item pl-2" href="contact.html">Contact</a>
+
+            <div class="collapse navbar-collapse" id="myNavbar"></div>
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="assets/fiona-zhou-resume.pdf">Resume</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/fxzhou/">LinkedIn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/fxtzhou">GitHub</a>
+                    </li>
+                    <li class="nav-item"><a href="#section1">Projects</a></li>
+                    <li class="nav-item"><a href="#section2">About</a></li>
+                    <li class="nav-item"><a href="#section3">Contact</a></li>
 
                 </ul>
+               
+              
+            </div>
+    </div>
+    </div>
+    </nav>
 
+
+    </div>
+
+
+    <!-- <div class="container-fluid">
+
+    <div class="col-md-1 col-lg-1 col-xl-2"></div>
+
+    <div class="col mx-2 bg-secondary"> -->
+
+    <!-- Start of unique content -->
+    <div id="section1" class="container-fluid">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <h1>Projects</h1>
             </div>
 
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
 
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="assets/hangman.png" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Hangman</h5>
+                                <p class="card-text">Hangman game using Javascript.</p>
+                                <a href="https://fxtzhou.github.io/word-guess-game/" class="btn btn-primary">Project</a>
+                                <a href="https://github.com/fxtzhou/word-guess-game"
+                                    class="btn btn-secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="assets/starwars.png" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">RPG Game</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="https://fxtzhou.github.io/triviagame/" class="btn btn-primary">Project</a>
+                                <a href="https://github.com/fxtzhou/triviagame" class="btn btn-secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="assets/triviagame.png" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Trivia Game</h5>
+                                <p class="card-text">Trivia game using JavaScript for the logic and jQuery to manipulate
+                                    HTML.</p>
+                                <a href="https://fxtzhou.github.io/triviagame/" class="btn btn-primary">Project</a>
+                                <a href="https://github.com/fxtzhou/triviagame" class="btn btn-secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="assets/giphy.png" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Giphy API</h5>
+                                <p class="card-text">Uses the GIPHY API to make a dynamic web page that populates
+                                    gifs from user input.</p>
+                                <a href="https://fxtzhou.github.io/giphy-api/" class="btn btn-primary">Project</a>
+                                <a href="https://github.com/fxtzhou/giphy-api" class="btn btn-secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="assets/train.png" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Train Scheduler</h5>
+                                <p class="card-text">A train schedule application that incorporates Firebase to host
+                                    arrival and departure data. The app retrieves and manipulates this information
+                                    with Moment.js, and provides up-to-date information about various trains.
+
+                                </p>
+                                <a href="https://fxtzhou.github.io/train-scheduler/" class="btn btn-primary">Project</a>
+                                <a href="https://github.com/fxtzhou/train-scheduler"
+                                    class="btn btn-secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="assets/hangman.png" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">RPG Game</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="https://fxtzhou.github.io/giphy-api/" class="btn btn-primary">Project</a>
+                                <a href="https://github.com/fxtzhou/giphy-api" class="btn btn-secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="container-fluid mt-3 mb-5">
-        <div class="row">
+    </div>
 
-            <div class="col-md-1 col-lg-1 col-xl-2"></div>
 
-            <div class="col mx-2 bg-white mt-3 mb-5 p-4">
-                <h1>About Me</h1>
-                <hr>
 
-                <!-- Start of unique content -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                    <img src="https://via.placeholder.com/150" class="img-fluid float-left mr-3" alt="placeholder">
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias quaerat dolore quibusdam ad.
-                        Suscipit illo eius sunt eos quod rerum voluptatum esse, animi, quia vitae expedita cupiditate!
-                        A, unde neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quos aspernatur
-                        quo quaerat praesentium voluptas quis porro minima enim reprehenderit fuga illo recusandae,
-                        suscipit minus officia cum delectus asperiores. Corporis.
-                    </p>
+    <div id="section1" class="container-fluid">
+        <section class="page-section bg-primary text-white mb-0" id="about">
 
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui non corporis cupiditate vel!
-                        Accusantium blanditiis eum minus recusandae voluptas quibusdam in dolor nihil laborum ea
-                        perferendis consequatur aspernatur, a quia.
-                    </p>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque doloribus, eum laboriosam
-                        odio ad quisquam. Cum aliquid, delectus minima, distinctio praesentium facere commodi et ullam
-                        ipsam fugit corrupti excepturi.</p>
-                    </div>
+            <!-- About Section Heading -->
+            <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+
+            <!-- Icon Divider -->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="divider-custom-line"></div>
+            </div>
+
+            <!-- About Section Content -->
+            <div class="row">
+                <div class="col-lg-4 ml-auto">
+                    <span class="text-white">Hi, I'm Fiona! I'm a UI/UX Designer with a B.A. in Design from UC Davis.
+                        Currently, I'm in
+                        a full-stack web developer program, aspiring to marry both design and
+                        development.<br><br>
+                        Thanks for checking out my portfolio!</span>
+                </div>
+            </div>
+
+
+
+    </div>
+    </section>
+
+    <div id="section2" class="container-fluid">
+        <h1>Section 2</h1>
+        <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="page-section" id="contact">
+        <div class="container">
+
+            <!-- Contact Section Heading -->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+
+            <!-- Icon Divider -->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="divider-custom-line"></div>
+            </div>
+
+            <!-- Contact Section Form -->
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Name</label>
+                                <input class="form-control" id="name" type="text" placeholder="Name" required="required"
+                                    data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Email Address</label>
+                                <input class="form-control" id="email" type="email" placeholder="Email Address"
+                                    required="required"
+                                    data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Phone Number</label>
+                                <input class="form-control" id="phone" type="tel" placeholder="Phone Number"
+                                    required="required"
+                                    data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Message</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Message"
+                                    required="required"
+                                    data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+                        </div>
+                    </form>
                 </div>
             </div>
 
         </div>
-        <div class="col-md-1 col-lg-4 col-xl-2"></div>
-    </div>
-    </div>
+    </section>
 
-
-
-    <footer class="footer mt-auto py-3 border-top fixed-bottom">
+    <!-- Footer -->
+    <footer class="footer text-center">
         <div class="container">
-            <p class="text-center text-white">Copyright</p>
+            <div class="row">
+
+                <!-- Footer Location -->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Location</h4>
+                    <p class="lead mb-0">2215 John Daniel Drive
+                        <br>Clark, MO 65243</p>
+                </div>
+
+                <!-- Footer Social Icons -->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Around the Web</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#">
+                        <i class="fab fa-fw fa-facebook-f"></i>
+                    </a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#">
+                        <i class="fab fa-fw fa-twitter"></i>
+                    </a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#">
+                        <i class="fab fa-fw fa-linkedin-in"></i>
+                    </a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#">
+                        <i class="fab fa-fw fa-dribbble"></i>
+                    </a>
+                </div>
+
+                <!-- Footer About Text -->
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                    <p class="lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by
+                        <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                </div>
+
+            </div>
         </div>
     </footer>
+
+    <!-- Copyright Section -->
+    <section class="copyright py-4 text-center text-white">
+        <div class="container">
+            <small>Copyright &copy; Your Website 2019</small>
+        </div>
+    </section>
+
+    </div>
+
+    </div>
+
+
+
+
 </body>
+<script>
+    $(document).ready(function () {
+        // Add scrollspy to <body>
+        $('body').scrollspy({
+            target: ".navbar",
+            offset: 50
+        });
+
+        // Add smooth scrolling on all links inside the navbar
+        $("#myNavbar a").on('click', function (event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function () {
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+</script>
 
 </html>
